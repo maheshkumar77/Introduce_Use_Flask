@@ -1,0 +1,78 @@
+/* General Body and Container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard-container {
+    width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* List of Introductions */
+.intro-list {
+    margin-top: 20px;
+}
+
+.intro-item {
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.intro-item p {
+    margin: 10px 0;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+button.approve-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button.reject-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+button.action-button {
+    background-color: #2196F3;
+    color: white;
+    margin-top: 20px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+hr {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+/* Button styles */
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

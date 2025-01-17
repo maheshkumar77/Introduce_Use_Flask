@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Admin Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style2.css') }}">
+</head>
+<body>
+
+    <div class="dashboard-container">
+        <h2>Super Admin Dashboard</h2>
+        <div id="intro-list" class="intro-list"></div>
+        <button id="add-user" class="action-button">Create User</button>
+        <button id="add-admin" class="action-button">Create Super Admin</button>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script2.js') }}"></script>
+</body>
+</html>
